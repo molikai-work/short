@@ -22,32 +22,21 @@ export async function onRequestGet(context) {
     const formattedDate = new Date().toISOString();
 
     /* 统一固定内容 */
-    const shortName =`c1nTop`
+    const shortName =`example`
 
     const htmlHead =`<meta name="robots" content="noindex" />
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-66Q9VD7LGH"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-        
-            gtag('config', 'G-66Q9VD7LGH');
-        </script>
 
-        <link rel="icon" href="/asset/image/logo/ico/logo.ico" />
+        <link rel="icon" href="/logo.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="/asset/css/jump-styles.css" />
-        <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "6bf7cd3f73f24e66ba26ba7749f80676"}'></script><!-- End Cloudflare Web Analytics -->
-        <!-- Clarity tracking code for https://c1n.top/ --><script>    (function(c,l,a,r,i,t,y){        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);    })(window, document, "clarity", "script", "m0fkugt98p");</script><!-- End Clarity tracking code for https://c1n.top/ -->
     `
 
-    const adminEmail =`info@molikai.work`
+    const adminEmail =`info@example.com`
 
     const noscript =`<noscript>
         <p>完整使用${shortName}短链需要浏览器支持（启用）JavaScript！</p>
         <p>此页面（短链跳转）也可以在不使用JavaScript的情况下使用，请手动操作页面。</p>
-        <p>不是您的浏览器所导致的？请联系管理员进行排错：info[at]molikai.work。</p>
+        <p>不是您的浏览器所导致的？请联系管理员进行排错：info[at]example.com。</p>
     </noscript>`
 
     const footer = `<p class="links">
@@ -55,8 +44,8 @@ export async function onRequestGet(context) {
 
         您还可以看看本站的友情链接：<br /><br />
 
-        <a href="https://molikai.work/" title="友情链接：墨离的主页" target="_blank">墨离的主页</a> ｜
-        <a href="https://furries.fun/" title="友情链接：小黄泊的小站" target="_blank">小黄泊的小站</a>
+        <a href="https://example.com/" title="友情链接：[友情链接预留]" target="_blank">[友情链接预留]</a> ｜
+        <a href="https://example.com/" title="友情链接：[友情链接预留]" target="_blank">[友情链接预留]</a>
     </p>
 
     <script src="/asset/js/web_console.js" defer></script>`

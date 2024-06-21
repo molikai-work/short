@@ -259,15 +259,6 @@ details small {
   opacity: 0.8;
 }
 
-#iconceCom {
-  width: 64px;
-  height: 64px;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  opacity: 0.8;
-}
-
 footer {
   border-top: 1px solid var(--border-color);
   text-align: center;

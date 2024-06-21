@@ -5,7 +5,7 @@
  */
 
 // 网站的启动日期
-const startDate = new Date("2024-03-17");
+const startDate = new Date("2024-06-21");
 
 // 获取当前时间
 const currentTime = new Date();
@@ -41,21 +41,16 @@ const daysDiff = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
 
 // 打印控制台输出
 console.log('%c' + `
-        _               _____
-  ___  / |  _ __       |_   _|__  _ __
- / __| | | | '_ \\        | |/ _ \\| '_ \\
-| (__  | | | | | |  _    | | (_) | |_) |
- \\___| |_| |_| |_| (_)   |_|\\___/| .__/
-                                 |_|
+Hello World!
 
 ` + '%c刷新截止时间：' + `
 %c${year}%c年%c${month}%c月%c${day}%c日%c ${meridiem}%c ${hours}%c:%c${minutes}
 
 %c网站运行时间起始于%c 2024-03-17
-%cc1nTop%c 短链，已经运行了 %c${daysDiff}%c 天。%c
+%cexample%c 短链，已经运行了 %c${daysDiff}%c 天。%c
 
 ` + `
-Copyright 2023-Presen %cc1nTop.%c All rights reserved.
+Copyright 2023-Presen %cexample.%c All rights reserved.
 由 %cX-DR/Short%c 的产品提供，二次修改在 %cmolikai-work/short%c，%cCloudflare%c 提供计算服务。
 
 `
