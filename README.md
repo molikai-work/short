@@ -26,7 +26,7 @@
 
 2. 登录到[Cloudflare](https://dash.cloudflare.com/)控制台。
 
-3. 在帐户主页中，选择`Workers 和 Pages`-> ` 创建应用程序` -> `Pages` -> `连接到 Git`。（Cloudflare 支持多种语言，推荐将语言显示设置为与本教程相同的语言）
+3. 在帐户主页中，选择 [Workers 和 Pages](https://dash.cloudflare.com/?to=/:account/workers-and-pages) -> ` 创建应用程序` -> `Pages` -> `连接到 Git`。（Cloudflare 支持多种语言，推荐将语言显示设置为与本教程相同的语言）
 
 4. 选择你创建的项目存储库，在 `设置构建和部署` 部分中，全部默认即可，不需要修改框架预设、构建命令等内容。
 
@@ -35,7 +35,7 @@
 <details>
   <summary>6. 点击这里查看创建数据库操作的图示</summary>
 
-  (1) 进入 Cloudflare 的控制台，查看左侧侧边栏，选择 `Workers 和 Pages` 展开菜单后再选择 `D1`：
+  (1) 进入 Cloudflare 的控制台，查看左侧侧边栏，选择 `Workers 和 Pages` 展开菜单后再选择 [D1](https://dash.cloudflare.com/?to=/:account/workers/d1)：
   ![4](/doce/4.png)
 
   (2) 在 `D1` 页面点击右上角的 `创建数据库` 以打开创建数据库菜单：
